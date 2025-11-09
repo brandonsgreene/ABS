@@ -1,0 +1,149 @@
+# ABS @BBL H2D – Standard V1
+# Optimized for Bambu Lab H2D enclosed system
+# Purpose: Strong, dimensionally stable ABS prints with clean supports and consistent surface finish.
+
+==================================================
+LAYER & LINE SETTINGS
+==================================================
+Layer Height: 0.20 mm
+Initial Layer Height: 0.20 mm
+Line Widths:
+  Default: 0.42 mm
+  Initial Layer: 0.50 mm
+  Outer Wall: 0.42 mm
+  Inner Wall: 0.45 mm
+  Top Surface: 0.42 mm
+  Sparse Infill: 0.45 mm
+  Internal Solid Infill: 0.42 mm
+  Support: 0.42 mm
+
+==================================================
+QUALITY & PRECISION
+==================================================
+Slice Gap Closing Radius: 0.049 mm
+Resolution: 0.012 mm
+Arc Fitting: Enabled
+X–Y Hole Compensation: 0
+X–Y Contour Compensation: 0
+Auto Circle/Hole Compensation: Disabled
+Elephant Foot Compensation: 0.15 mm
+Precise Z Height: Disabled
+Ironing: None
+Wall Generator: Classic
+Order of Walls: Inner/Outer
+Bridge Flow: 1.0
+Only One Wall on Top Surfaces: Enabled
+
+==================================================
+STRENGTH STRUCTURE
+==================================================
+Walls:
+  Wall Loops: 3
+  Detect Thin Wall: Enabled
+
+Top/Bottom Shells:
+  Top Layers: 5
+  Top Pattern: Monotonic
+  Bottom Layers: 4
+  Bottom Pattern: Monotonic
+  Top Shell Thickness: 1.0 mm
+  Bottom Shell Thickness: 0.8 mm
+  Internal Solid Infill Pattern: Gyroid
+
+Sparse Infill:
+  Density: 20 %
+  Pattern: Gyroid
+  Anchor Length: 400 %
+  Max Anchor Length: 20 mm
+  Infill/Wall Overlap: 20 %
+  Infill Direction: 45°
+  Bridge Direction: 0°
+  Minimum Sparse Infill Threshold: 10 mm²
+  Infill Combination: Enabled
+  Detect Narrow Infill: Enabled
+  Detect Floating Vertical Shells: Enabled
+  Ensure Vertical Shell Thickness: Enabled
+
+==================================================
+SPEED SETTINGS
+==================================================
+Initial Layer Speed: 20 mm/s
+Initial Layer Infill: 60 mm/s
+Outer Wall: 150 mm/s
+Inner Wall: 200 mm/s
+Top Surface: 150 mm/s
+Sparse Infill: 250 mm/s
+Bridge: 25 mm/s
+Support: 150 mm/s
+Support Interface: 80 mm/s
+Travel Speed: 200 mm/s
+
+Acceleration:
+  Normal: 8000 mm/s²
+  Travel: 10000 mm/s²
+  Initial Layer Travel: 3000 mm/s²
+  Initial Layer: 500 mm/s²
+  Outer Wall: 5000 mm/s²
+  Top Surface: 2000 mm/s²
+
+==================================================
+SUPPORT SETTINGS
+==================================================
+Top Z Distance: 0.25 mm
+Bottom Z Distance: 0.25 mm
+Top Interface Layers: 3
+Bottom Interface Layers: 2
+Base Pattern: Rectilinear
+Base Pattern Spacing: 3.0 mm
+Interface Pattern: Concentric
+Top Interface Spacing: 0.45 mm
+Support/Object XY Distance: 0.35 mm
+Normal Support Expansion: 0.2 mm
+Support/Object First Layer Gap: 0.25 mm
+Wall Loops: 1–2
+Independent Support Layer Height: Enabled
+Don’t Support Bridges: Enabled
+Z Overrides X/Y: Enabled
+
+==================================================
+OTHERS
+==================================================
+Max Speed: 80 mm/s
+Brim Width: 6 mm
+Infill Gap: 150 %
+Rib Wall: Enabled
+Extra Rib Length: 2 mm
+Rib Width: 6 mm
+Fillet Wall: Enabled
+Flush into Object’s Infill: Enabled
+Flush into Object’s Support: Enabled
+Fuzzy Skin: Disabled
+Z-Hop During Retraction: 0.25 mm
+Enable Clumping Detection: Enabled
+Enable Retraction Tuning: Enabled
+Minimum Layer Time: 8 s
+Slicing Mode: Regular
+Print Sequence: By Layer
+Timelapse: Traditional
+
+==================================================
+ENVIRONMENT
+==================================================
+Nozzle Temp: 245 °C
+Bed Temp: 100 °C
+Chamber Temp: 65 °C
+Cooling Fan: Off for first layers, ≤ 30 % after layer 5
+AMS Dry Level: ≤ 10 % RH recommended
+Enclosure: Fully closed during print
+
+==================================================
+SUMMARY
+==================================================
+Profile Name: ABS @BBL H2D – Standard V1
+Purpose: Standard strength + dimensional accuracy
+Best Use: Functional parts, jigs, mechanical housings
+Supports: Optimized for easy removal and smooth undersides
+Brim: Recommended 6 mm
+First Layer Speed: 20 mm/s
+Flush Waste: Into infill + support
+Notes: Tuned for Bambu H2D heated chamber stability
