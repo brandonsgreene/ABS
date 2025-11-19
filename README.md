@@ -87,5 +87,11 @@ Goals:
 - **Support Interface:** Concentric interface + 0.25 mm gap gives best removal quality.
 
 ---
+### Hardware Note – Hardened Steel Nozzle (.4 mm)
+- Lower thermal conductivity than brass requires ~15–20 °C less nominal temperature.
+- Optimal operating range: 245–255 °C.
+- Tested stable with ABS @BBL H2D (enclosed, 65 °C chamber).
+- 245 °C confirmed as standard for V1 profile.
+
 
 ## 🧰 Files in This Repo
